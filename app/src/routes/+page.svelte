@@ -1,7 +1,5 @@
-<script>
-	import Header from '../components/header.svelte';
+<script lang="ts">
 	import Hero from '../components/hero.svelte';
 </script>
 
-<Header />
 <Hero />

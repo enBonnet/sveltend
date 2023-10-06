@@ -1,100 +1,79 @@
-<header class="bg-white">
-  <div
-    class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
-  >
-    <a class="block  text-purple-600" href="/">
-      <span class="sr-only">Home</span>
-      <svg
-        class="h-8"
-        viewBox="0 0 28 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
-          fill="currentColor"
-        />
-      </svg>
-    </a>
-
-    <div class="flex flex-1 items-center justify-end md:justify-between">
-      <nav aria-label="Global" class="hidden md:block">
-        <ul class="flex items-center gap-6 text-sm">
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-              About
-            </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-              Careers
-            </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-              History
-            </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-              Services
-            </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-              Projects
-            </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-              Blog
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="flex items-center gap-4">
-        <div class="sm:flex sm:gap-4">
-          <a
-            class="block rounded-md bg-purple-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-purple-700"
-            href="/"
-          >
-            Login
-          </a>
-
-          <a
-            class="hidden rounded-md bg-gray-100 px-5 py-2.5 text text-purple-600 t:text-purple-600/75 sm:block"
-            href="/"
-          >
-            Register
-          </a>
-        </div>
-
-        <button
-          class="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
-        >
-          <span class="sr-only">Toggle menu</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
-      </div>
-    </div>
-  </div>
+<header class="p-4 dark:bg-gray-800 dark:text-gray-100">
+	<div class="container mx-auto flex h-16 justify-between">
+		<a
+			rel="noopener noreferrer"
+			href="/"
+			aria-label="Back to homepage"
+			class="flex items-center p-2"
+		>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="currentColor"
+				viewBox="0 0 32 32"
+				class="h-8 w-8 dark:text-violet-400"
+			>
+				<path
+					d="M27.912 7.289l-10.324-5.961c-0.455-0.268-1.002-0.425-1.588-0.425s-1.133 0.158-1.604 0.433l0.015-0.008-10.324 5.961c-0.955 0.561-1.586 1.582-1.588 2.75v11.922c0.002 1.168 0.635 2.189 1.574 2.742l0.016 0.008 10.322 5.961c0.455 0.267 1.004 0.425 1.59 0.425 0.584 0 1.131-0.158 1.602-0.433l-0.014 0.008 10.322-5.961c0.955-0.561 1.586-1.582 1.588-2.75v-11.922c-0.002-1.168-0.633-2.189-1.573-2.742zM27.383 21.961c0 0.389-0.211 0.73-0.526 0.914l-0.004 0.002-10.324 5.961c-0.152 0.088-0.334 0.142-0.53 0.142s-0.377-0.053-0.535-0.145l0.005 0.002-10.324-5.961c-0.319-0.186-0.529-0.527-0.529-0.916v-11.922c0-0.389 0.211-0.73 0.526-0.914l0.004-0.002 10.324-5.961c0.152-0.090 0.334-0.143 0.53-0.143s0.377 0.053 0.535 0.144l-0.006-0.002 10.324 5.961c0.319 0.185 0.529 0.527 0.529 0.916z"
+				/>
+				<path
+					d="M22.094 19.451h-0.758c-0.188 0-0.363 0.049-0.515 0.135l0.006-0.004-4.574 2.512-5.282-3.049v-6.082l5.282-3.051 4.576 2.504c0.146 0.082 0.323 0.131 0.508 0.131h0.758c0.293 0 0.529-0.239 0.529-0.531v-0.716c0-0.2-0.11-0.373-0.271-0.463l-0.004-0.002-5.078-2.777c-0.293-0.164-0.645-0.26-1.015-0.26-0.39 0-0.756 0.106-1.070 0.289l0.010-0.006-5.281 3.049c-0.636 0.375-1.056 1.055-1.059 1.834v6.082c0 0.779 0.422 1.461 1.049 1.828l0.009 0.006 5.281 3.049c0.305 0.178 0.67 0.284 1.061 0.284 0.373 0 0.723-0.098 1.027-0.265l-0.012 0.006 5.080-2.787c0.166-0.091 0.276-0.265 0.276-0.465v-0.716c0-0.293-0.238-0.529-0.529-0.529z"
+				/>
+			</svg>
+		</a>
+		<ul class="hidden items-stretch space-x-3 lg:flex">
+			<li class="flex">
+				<a
+					rel="noopener noreferrer"
+					href="#"
+					class="-mb-1 flex items-center border-b-2 px-4 dark:border-transparent dark:border-violet-400 dark:text-violet-400"
+					>Link</a
+				>
+			</li>
+			<li class="flex">
+				<a
+					rel="noopener noreferrer"
+					href="#"
+					class="-mb-1 flex items-center border-b-2 px-4 dark:border-transparent">Link</a
+				>
+			</li>
+			<li class="flex">
+				<a
+					rel="noopener noreferrer"
+					href="#"
+					class="-mb-1 flex items-center border-b-2 px-4 dark:border-transparent">Link</a
+				>
+			</li>
+			<li class="flex">
+				<a
+					rel="noopener noreferrer"
+					href="#"
+					class="-mb-1 flex items-center border-b-2 px-4 dark:border-transparent">Link</a
+				>
+			</li>
+		</ul>
+		<div class="hidden flex-shrink-0 items-center lg:flex">
+			<a href="/auth/login" class="self-center rounded px-8 py-3">Sign in</a>
+			<a
+				href="/auth/signup"
+				class="self-center rounded px-8 py-3 font-semibold dark:bg-violet-400 dark:text-gray-900"
+				>Sign up</a
+			>
+		</div>
+		<button class="p-4 lg:hidden">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke="currentColor"
+				class="h-6 w-6 dark:text-gray-100"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M4 6h16M4 12h16M4 18h16"
+				/>
+			</svg>
+		</button>
+	</div>
 </header>
