@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
+	import Toast from '../../../components/toast.svelte';
 
 	export let form;
 </script>
@@ -8,6 +9,34 @@
 	<div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
 		<div class="w-full max-w-md space-y-3 rounded-xl p-8 dark:bg-gray-900 dark:text-gray-100">
 			<h1 class="text-center text-2xl font-bold">Login</h1>
+			<Toast
+				type="info"
+				title="title"
+				dismissible={true}
+				message={{
+					description: 'problemas que sucede',
+					action: { label: 'click', href: '/' }
+				}}
+				on:dismiss={() => console.log('dismiss')}
+			/>
+			<Toast
+				type="warning"
+				title="title"
+				dismissible={true}
+				message={{ description: 'problemas que sucede', action: { label: 'click', href: '/' } }}
+			/>
+			<Toast
+				type="error"
+				title="title"
+				dismissible={true}
+				message={{ description: 'problemas que sucede', action: { label: 'click', href: '/' } }}
+			/>
+			<Toast
+				type="success"
+				title="title"
+				dismissible={true}
+				message={{ description: 'problemas que sucede', action: { label: 'click', href: '/' } }}
+			/>
 			<div>
 				{#if form?.missing}<p class="error">The email field is required</p>{/if}
 				{#if form?.incorrect}<p class="error">Invalid credentials!</p>{/if}
